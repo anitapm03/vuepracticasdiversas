@@ -11,7 +11,14 @@ app.config.globalProperties.$filters = {
         }else {
             return "<span style='color: red'>"+num+"</span>";
         }
+    },
+    getMultiplicarNumero(num, multi){
+        return num * multi;
+    },
+    getOperacion(num, multi){
+        return num + "*" + multi;
     }
+
 }
 
 app.use(router).mount('#app');

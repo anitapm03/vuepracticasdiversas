@@ -8,6 +8,9 @@
             <li>
                 <router-link to="/collatz"> Collatz | </router-link>
             </li>
+            <li>
+                <router-link to="/tabla1"> Tabla multiplicar 1 | </router-link>
+            </li>
         </ul>
 
     </div>
